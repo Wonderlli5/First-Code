@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="loginform.css">
+    <meta charset="UTF-8" name="description" content="Login form for user authentication">
+</head> 
+<body>
+    <div id="parent">
+        <form id="child">
+        <h3 id="site-name">the<span class="wild">WILD</span>things</h3>
+            <input type="text" name="Username" id="name" placeholder="e.g. Favy" size="25" minlength="1" maxlength="200" pattern="^[\d][A-Za-z][@#%^&*]{16}" title="Username must contain at least one letter and can include numbers."> 
+            <br> <br>
+            <input type="email" name="email" id="email" placeholder="e.g. favy@example.com"  minlength="10" maxlength="30" size="25">
+            <br> <br>
+            <input type="password" name="password" id="password" placeholder="Password" minlength="8" maxlength="20" size="25">
+            <br> <br>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>

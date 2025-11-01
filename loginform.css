@@ -1,0 +1,31 @@
+body{
+    background-image: url(https://i.ibb.co/DDWvTYcg/20250604-010449.jpg);
+}
+#parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+#child{
+    border: solid rgba(255, 255, 255, 0.384) 2px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: blue;
+}
+#site-name{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 2000;
+    font-size: 30px;
+}
+.wild{
+    text-decoration: line-through;
+    color: rgb(236, 235, 241);
+}
+button{
+    display: inline-block;
+    color: red
+    height: 1px;
+}
